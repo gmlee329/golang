@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request){
 	name, err := os.Hostname()
-	if err != null {
+	if err != nil {
 		panic(err)
 	}
 
